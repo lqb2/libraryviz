@@ -1,1 +1,1 @@
-alert('heyo! Letz get some bookz!')
+console.log('fired up, ready to go!')
