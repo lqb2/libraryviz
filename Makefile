@@ -1,5 +1,14 @@
+install:
+	pip install -r requirements.txt
+
+
 serve:
 	http-server
+
+
+update:
+	python update.py
+
 
 publish: 
 	# switch to the gh-pages branch
