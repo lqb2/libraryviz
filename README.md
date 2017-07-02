@@ -38,7 +38,16 @@ default working branch is `master`
 ```sh
 # activate the virtual environment
 source bin/activate
+
+# update the html page scraping my latest goodreads library update
 make update
+
+# commit the master branch
 git commit -am "updated"
+
+# update the master branch on github
+git push origin HEAD
+
+# update the gh-pages branch on github
 make publish
 ```
