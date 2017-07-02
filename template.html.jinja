@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Library Viz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>{{ username }}'s Goodreads Library</h1>
+
+<main>
+	<ul id="books">
+    {% for book in anchortags %}
+		<li>{{ book }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="https://www.goodreads.com/review/list/61877628-lawrence?utf8=%E2%9C%93&order=d&shelf=read&title=lawrence&per_page=infinite">See more...</a>
+</main>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>

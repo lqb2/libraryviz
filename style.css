@@ -8,3 +8,15 @@ body {
 	background-color: #888888;
 	color: #fff;
 }
+
+ul, h1 {
+	padding: 20px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
