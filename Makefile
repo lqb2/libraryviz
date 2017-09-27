@@ -4,6 +4,7 @@ install:
 
 serve:
 	http-server
+	open http://0.0.0.0:8080
 
 
 update:

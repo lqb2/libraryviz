@@ -5,7 +5,7 @@ from jinja2 import Template
 
 
 response = requests.get(
-	'https://www.goodreads.com/review/list/61877628-lawrence?order=d&per_page=100&shelf=read&sort=date_read')
+	'https://www.goodreads.com/review/list/61877628-lawrence?order=d&shelf=read&sort=date_read')
 html = response.content.decode('utf-8')
 
 soup = BeautifulSoup(html, 'html.parser')
