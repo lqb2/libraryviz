@@ -51,3 +51,7 @@ git push origin HEAD
 # update the gh-pages branch on github
 make publish
 ```
+
+## Notes
+
+* [ideal bookshelf](https://www.idealbookshelf.com/)
